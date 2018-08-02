@@ -27,6 +27,7 @@ class ApplicationController < Sinatra::Base
     return erb :self_esteem
   end
 
+<<<<<<< HEAD
   get '/forgotpassword' do
     return erb :forgetpassword
   end
@@ -39,4 +40,16 @@ get '/posts_for_self_esteem' do
     return erb :posts_for_self_esteem
   end
 
+=======
+get '/signin' do
+  return erb :sign_in_up
+end
+
+
+get '/forgotpassword' do
+  return erb :forgetpassword
+end
+
+
+>>>>>>> b7ca11a4886bd9996ac8c2d2e950ab43a40ed835
 end
