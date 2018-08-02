@@ -27,11 +27,15 @@ get '/self_esteem' do
 return erb :self_esteem
 end
 
+get '/signin' do
+  return erb :sign_in_up
+end
+
+
 get '/forgotpassword' do
   return erb :forgetpassword
 end
 
-get '/self_esteem_advice'
-  return erb :advice_for_self_esteem
+
 end
 end
