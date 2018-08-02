@@ -48,5 +48,11 @@ get '/forgotpassword' do
   return erb :forgetpassword
 end
 
+get '/advice_SA' do
+return erb :advice_SA
+end
 
+get '/post_SA' do
+return erb :post_SA
+end
 end
