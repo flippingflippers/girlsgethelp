@@ -26,4 +26,8 @@ end
 get '/self_esteem' do
 return erb :self_esteem
 end
+
+get '/forgotpassword' do
+  return erb :forgetpassword
+end
 end
