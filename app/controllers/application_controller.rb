@@ -30,4 +30,8 @@ end
 get '/forgotpassword' do
   return erb :forgetpassword
 end
+
+get '/self_esteem_advice'
+  return erb :advice_for_self_esteem
+end
 end
