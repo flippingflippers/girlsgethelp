@@ -18,11 +18,27 @@ class ApplicationController < Sinatra::Base
   get '/sexual_assault' do
     return erb :sexual_assault
   end
+  
+  get '/advice_SA' do
+    return erb :advice_SA
+  end
+  
+  get '/posts_SA' do 
+    return erb :posts_SA
+  end 
 
   get '/self_harm' do
     return erb :self_harm
   end
 
+  get '/self_harm_advices' do
+    return erb :self_harm_advices
+  end 
+  
+  get '/self_harm_posts' do 
+    return erb :self_harm_posts
+  end
+    
   get '/self_esteem' do
     return erb :self_esteem
   end
@@ -41,19 +57,5 @@ get '/posts_for_self_esteem' do
 
 get '/sign_in_ip' do
   return erb :sign_in_up
-end
-
-
-get '/forgetpassword' do
-  return erb :forgetpassword
-end
-
-get '/advice_SA' do
-return erb :advice_SA
-end
-
-get '/post_SA' do
-return erb :post_SA
-
 end
 end
