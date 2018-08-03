@@ -6,3 +6,29 @@ h1 {
  width: 500px;
  font-size:14pt;
 }
+.esteemadvice {
+  border: 5px solid red;
+}
+p {
+  color:pink;
+  font-size: 45px;
+}
+.shp{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHfrwrgyPuuIqAobEw4mIduwZ-E5wrz_vudGoQGS0qYdZixleJ");
+}
+.shtitle {
+  background-color: #40AFB3;
+  color: pink;
+  font-size: 30px;
+}
+.shhot {
+  background-color: #40AFB3;
+  color: pink;
+  font-size: 25px;
+}
+.selines{
+  color:red;
+}
+.homepage {
+  background-color: gray
+}
