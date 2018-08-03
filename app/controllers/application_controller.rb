@@ -39,12 +39,12 @@ get '/posts_for_self_esteem' do
     return erb :posts_for_self_esteem
   end
 
-get '/signin' do
+get '/sign_in_ip' do
   return erb :sign_in_up
 end
 
 
-get '/forgotpassword' do
+get '/forgetpassword' do
   return erb :forgetpassword
 end
 
@@ -54,5 +54,6 @@ end
 
 get '/post_SA' do
 return erb :post_SA
+
 end
 end
